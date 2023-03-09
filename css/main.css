@@ -2,3 +2,26 @@ body
 {
     background-color: coral;
 }
+#btn_registro
+{
+    background: thistle;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+}
+.boton
+{
+    background: thistle;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+}
+.seleccionado
+{
+    background: gray;
+    color: cornflowerblue;  
+}
+a{
+    margin-right: 10px;
+}

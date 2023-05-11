@@ -102,14 +102,14 @@ body
 #btn_registro
 {
     background: orange;
-    color: aliceblue;
+    color: orange;
     width: 100px;
     height: 50px;
     display: flex;
 }
 .boton
 {
-    background: thistle;
+    background: orange;
     color: aliceblue;
     width: 100px;
     height: 50px;

@@ -361,11 +361,11 @@ height: 100px;
     flex-direction: column;
 }
 .bottom-link {
-    position: fixed;
+
     bottom: 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     width: 100%;
     text-align: center;
-    background-color: white; /* optional: add a background color if you wish */
+   
 }
 }

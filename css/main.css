@@ -338,10 +338,15 @@ height: 50px;
 }
 .normal
 {
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
 background-color: orangered;
 border-radius: 10px;
-width: 350px;
-height: 100px;
+width: 250px;
+height: 80px;
 }
 .buscador
 {

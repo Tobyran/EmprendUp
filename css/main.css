@@ -1,5 +1,7 @@
 @media only screen and  (min-width: 220px) and (max-width: 540px){
-    
+ 
+
+
 .parentTablet
 {
     display: none;
@@ -67,6 +69,8 @@ margin: 5px;
 body
 {
     background-color: azure;
+    font-family: 'Roboto', sans-serif;
+
 }
 #title
 {
@@ -234,6 +238,8 @@ height: 90px;
 body
 {
     background-color: azure;
+    font-family: 'Roboto', sans-serif;
+
 }
 #title
 {

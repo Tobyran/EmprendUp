@@ -216,3 +216,141 @@
     flex-direction: row;
 }
 }
+
+@media only screen and (min-width: 1025px){
+
+    .div1p
+    {
+        display: none;
+    }
+    .div2p
+    {
+        display: none;
+    }
+    .div3p
+    {
+        display: none;
+    }
+    .div5p
+    {
+        display: none;
+    }
+    .div6p
+    {
+        display: none;
+    }
+    .div7p
+    {
+        display: none;
+    }
+
+    .div1t
+    {
+        display: none;
+    }
+    .div2t
+    {
+        display: none;
+    }
+    .div3t
+    {
+        display: none;
+    }
+    .div4t
+    {
+        display: none;
+    }
+    .div5t
+    {
+        display: none;
+    }
+    .div6t
+    {
+        display: none;
+    }
+    .div7t
+    {
+        display: none;
+    }
+
+    .parentpc {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1p { grid-area: 1 / 1 / 13 / 5; }
+        .div2p { grid-area: 1 / 5 / 3 / 8; }
+        .div3p { grid-area: 4 / 5 / 6 / 8; }
+        .div4p { grid-area: 7 / 5 / 9 / 8; }
+        .div5p { grid-area: 10 / 5 / 12 / 8; }
+        .div6p { grid-area: 1 / 8 / 3 / 11; }
+        .div7p { grid-area: 4 / 8 / 6 / 11; }
+        .div8p { grid-area: 7 / 8 / 9 / 11; }
+        .div9p { grid-area: 10 / 8 / 12 / 11; }
+        .div10p { grid-area: 2 / 1 / 7 / 5; }
+        .div11p { grid-area: 7 / 1 / 11 / 5; }
+        .div12p { grid-area: 11 / 2 / 13 / 4; }
+
+.btn
+    {
+        border-radius: 2px;
+        background-color: white;
+        padding: 5px;
+        width: 100px;
+        margin: 3px;
+        cursor: pointer;
+        text-align: center;
+    
+    }
+.destacado
+    {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    }
+.normal
+    {
+    background-color: orangered;
+    color: white;
+    border-radius: 6px;
+    width: 250px;
+    height: 80px;
+    }
+.buscador
+    {
+        background-color: gray;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        width: 370px;
+    }
+#imgemprendup
+    {
+        width: 50px;
+        height: 50px;
+        flex-direction: row;
+    }
+#imgbuscador
+    {
+        width: 25px;
+        height: 25px;
+        flex-direction: row;
+    }
+#imgfood
+{
+    width: 85px;
+    height: 60px;
+    flex-direction: row;
+}
+#imgperfil
+{
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    flex-direction: row;
+}
+}

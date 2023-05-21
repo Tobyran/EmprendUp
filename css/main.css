@@ -505,7 +505,7 @@ height: 90px;
     text-align: center;
    
 }
-
+}
 /*////////////////////////////////////////////////////////PC\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 
@@ -739,7 +739,7 @@ height: 90px;
     position: fixed;
     display: flex;
     justify-content: space-between;
-    width: 700px;
+    width: 1460px;
     border-radius: 20px;
 }
 .datos
@@ -761,4 +761,3 @@ height: 90px;
 
 }
 
-}
